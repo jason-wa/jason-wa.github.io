@@ -1,0 +1,142 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+    }
+    body {
+       width: 800px;
+       height: 100%;
+       background: url(space_background.jpg);
+    }
+
+
+    header {
+      font-family: 'Roboto', sans-serif;
+        color: yellow;
+        padding: 5px, 15px;
+        font-size: 40px;
+        display: block;
+        width: 800px;
+        height: 100px;
+        margin: none;
+    }
+
+    .join{
+      font-family: 'Roboto', sans-serif;
+      float: right;
+      font-size: 24px;
+      position: relative;
+      border: 3px solid yellow;
+      height: 375px;
+      width: 200px;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 0px,10px, 0px, 10px;
+      border-radius: 3px;
+      }
+
+    h4{
+      color: yellow;
+      font-size: 32px;
+
+    }
+
+    nav {
+        float: left;
+        position: static;
+        font-weight: bolder;
+        font-size: 20px;
+
+    }
+    nav ul {
+        padding: ;
+        float: left;
+        border-bottom: ;
+        list-style-type: none;
+        width: 800px;
+        margin: auto;
+
+    }
+    nav li {
+        float: left;
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        padding: 12px 18px 8px 18px;
+        border: 2px inset yellow;
+        background: -webkit-linear-gradient(#FFEB07, #000000);
+
+    }
+    a {
+        color: ;
+    }
+    section {
+        width: 73%;
+        display: inline-block;
+        float: left;
+    }
+    aside {
+        width: 17%;
+        display: inline-block;
+        background-color:;
+        padding:;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        background-color:;
+        color:;
+        clear: both;
+        display: block;
+    }
+    h2{
+      border-style: groove;
+      border-width: medium;
+      border-color: yellow;
+      font-size: 36px;
+      color: yellow;
+      background-color: rgba(0, 0, 0, 0.7);
+      font-family: 'Roboto', sans-serif;
+
+    }
+
+    h3{
+      color: yellow;
+      font-size: 24px;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    p{
+      color: yellow;
+      font-family: 'Rhodium Libre', serif;
+    }
+
+    .greeting{
+      border: 2px inset yellow;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    /* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}

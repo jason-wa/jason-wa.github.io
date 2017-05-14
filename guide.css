@@ -1,0 +1,97 @@
+
+
+*{padding 0; margin 0}
+
+
+html
+
+
+
+
+{
+     height: 100%;
+   }
+   body {
+      height: 100%;
+      width: 940px;
+      margin: 0px auto;
+   }
+   body {background-image:url(MFalcon.png);
+     background-size:cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+     background-color:black}
+   header {
+      margin-top:10px;
+       background-color:rgba(172,129,59,.7);
+       padding:5px;
+       font-size: 2em;
+       display: block;
+       width: 929px;
+       border: 5px double rgb(37, 82, 165);
+       border-radius: 45px;
+   }
+   h1 {
+     text-align:center;
+   font-family: 'Russo One', sans-serif;
+ }
+   h2 {padding-left: 15px;
+      weight: 2;}
+   h4 {
+     text-align:center;
+   font-family: 'Russo One', sans-serif;
+ }
+   p {padding: 0px 10px;
+     color: white;
+     weight:2}
+   nav {
+       line-height:1.4;
+       background-color:rgba(37, 82, 165, .8);
+       width:185px;
+       display:inline-block;
+       vertical-align: top;
+       margin-top:15px;
+       padding: 0px;
+   }
+   nav ul {
+       list-style-type: none;
+       padding: 0px;
+   }
+   nav ul li {
+     font-size: 1.25em;
+     padding: 35px 0px;
+     text-align:center;
+   }
+   nav ul a {color:black;
+   }
+   nav ul a:hover {color:rgb(172,129,59)}
+   a { text-decoration: none;
+       color:rgb(172,129,59) ;
+   }
+   a:hover {color:rgb(37, 82, 165)}
+   section {
+       width: 560px;
+       display: inline-block;
+       background-color: rgba(14,13,14,.5);
+      margin-top: 15px;
+   }
+   aside {
+     width: 185px;
+     display: inline-block;
+     vertical-align: top;
+     background-color:rgb(172,129,59);
+     font-size .7em: ;
+     margin-top:15px;
+     overflow:hidden;
+   }
+   aside ul {
+       list-style-type: none;
+   }
+   aside img {float:right}
+   footer {
+       width: 940px;
+       background-color:rgb(172,129,59);
+       height:50px;
+       line-height:50px;
+      margin: 0px auto;}
